@@ -7,4 +7,7 @@ pod 'SnapKit', '~> 4.0.0'
 pod 'SwiftyJSON', '~> 4.0.0'
 pod 'Moya', '~> 10.0.1'
 pod 'ObjectMapper', '~> 3.1.0'
+pod 'RxKeyboard'
+pod 'RealmSwift'
+# pod 'GodEye'
 end
