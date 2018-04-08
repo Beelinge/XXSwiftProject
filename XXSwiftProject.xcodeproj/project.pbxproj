@@ -24,6 +24,8 @@
 		8E65589C206F41D600D00982 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589B206F41D600D00982 /* NotificationName.swift */; };
 		8E65589E206F566B00D00982 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589D206F566B00D00982 /* UserDefaultsKey.swift */; };
 		8E6558A0206F573900D00982 /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589F206F573900D00982 /* PrintLog.swift */; };
+		8E6558A520723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558A420723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift */; };
+		8E6558A720725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558A620725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift */; };
 		E019DEE680698A8F558716BE /* Pods_XXSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F337026A9B27C0561EB6911 /* Pods_XXSwiftProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,8 @@
 		8E65589B206F41D600D00982 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		8E65589D206F566B00D00982 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		8E65589F206F573900D00982 /* PrintLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
+		8E6558A420723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksStringSelfSizingCollectionCell.swift; sourceTree = "<group>"; };
+		8E6558A620725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksStringSelfSizingCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				8E254CDC2029CF8E0014A8AB /* WorksViewController.swift */,
+				8E6558A120723DD500D00982 /* StringSelfSizingCollection */,
 			);
 			path = Works;
 			sourceTree = "<group>";
@@ -249,6 +254,31 @@
 				8E65589D206F566B00D00982 /* UserDefaultsKey.swift */,
 			);
 			path = Const;
+			sourceTree = "<group>";
+		};
+		8E6558A120723DD500D00982 /* StringSelfSizingCollection */ = {
+			isa = PBXGroup;
+			children = (
+				8E6558A220723DD500D00982 /* View */,
+				8E6558A320723DD500D00982 /* ViewController */,
+			);
+			path = StringSelfSizingCollection;
+			sourceTree = "<group>";
+		};
+		8E6558A220723DD500D00982 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E6558A420723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E6558A320723DD500D00982 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E6558A620725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		AD66C91A03798B19AF2D826E /* Frameworks */ = {
@@ -473,12 +503,14 @@
 				8E65589E206F566B00D00982 /* UserDefaultsKey.swift in Sources */,
 				8E549B631FB9389F00EAE8E4 /* AppDelegate.swift in Sources */,
 				8E65589C206F41D600D00982 /* NotificationName.swift in Sources */,
+				8E6558A520723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift in Sources */,
 				8E254CDD2029CF8E0014A8AB /* WorksViewController.swift in Sources */,
 				8E6558A0206F573900D00982 /* PrintLog.swift in Sources */,
 				8E254CD52029CEB40014A8AB /* VendorAlamoViewController.swift in Sources */,
 				8E254CDF2029D0A60014A8AB /* VendorRxSwiftViewController.swift in Sources */,
 				8E254CD02029B9A80014A8AB /* NSObject+Ext.swift in Sources */,
 				8E254CDB2029CF7B0014A8AB /* PracticeViewController.swift in Sources */,
+				8E6558A720725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift in Sources */,
 				8E254CCA2029AC9E0014A8AB /* MainTableViewController.swift in Sources */,
 				8E254CD72029CEB40014A8AB /* VendorRxKeyboardController.swift in Sources */,
 				8E254CD62029CEB40014A8AB /* VendorViewController.swift in Sources */,

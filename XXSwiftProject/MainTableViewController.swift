@@ -15,7 +15,7 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        dataSource = [NSStringFromClass(VendorViewController.classForCoder()),
+        dataSource = [NSStringFromClass(WorksViewController.classForCoder()),
         NSStringFromClass(VendorViewController.classForCoder())]
     }
     

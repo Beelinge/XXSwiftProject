@@ -49,16 +49,30 @@ class VendorRxSwiftViewController: UIViewController {
         }
         
         kvoTest()
+        notificationTest()
     }
     
     // MARK: - notification test
     // 不需要去管理观察者的生命周期
     func notificationTest() {
-        NotificationCenter.default.rx
-            .notification(.UIApplicationWillEnterForeground)
-            .subscribe(onNext: { (notification) in
-                PrintLog("notification test")
-            }).disposed(by: disposeBag)
+//        NotificationCenter.default.rx
+//            .notification(.UIApplicationWillEnterForeground)
+//            .subscribe(onNext: { (notification) in
+//                PrintLog("notification test")
+//            }).disposed(by: disposeBag)
+//
+//        NotificationCenter.default.rx.notification(Notification.Name(rawValue: "j"), object: nil).takeLast(1).subscribe(onNext: { (noti) in
+//            if let value = noti.userInfo!["value"] {
+//                print("\(value)")
+//            }
+//        }).disposed(by: disposeBag)
+//
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: "j"), object: nil, userInfo:  ["value": 1])
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: "j"), object: nil)
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: "j"), object: nil)
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: "j"), object: nil, userInfo:  ["value": 4])
+
+ 
     }
    
     // MARK: - KVO
