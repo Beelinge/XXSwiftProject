@@ -14,9 +14,10 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        dataSource = [NSStringFromClass(WorksViewController.classForCoder()),
-        NSStringFromClass(VendorViewController.classForCoder())]
+        
+        dataSource = [NSStringFromClass(PracticeViewController.classForCoder()),
+                      NSStringFromClass(WorksViewController.classForCoder()),
+                      NSStringFromClass(VendorViewController.classForCoder())]
     }
     
     override func didReceiveMemoryWarning() {

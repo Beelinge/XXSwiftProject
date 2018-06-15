@@ -17,7 +17,9 @@ class VendorViewController: UITableViewController {
         
         dataSource = [NSStringFromClass(VendorAlamoViewController.classForCoder()),
                       NSStringFromClass(VendorRxKeyboardViewController.classForCoder()),
-                      NSStringFromClass(VendorRxSwiftViewController.classForCoder())]
+                      NSStringFromClass(VendorRxSwiftViewController.classForCoder()),
+                       NSStringFromClass(VendorMoyaViewController.classForCoder()),
+        ]
     }
     
     override func didReceiveMemoryWarning() {

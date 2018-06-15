@@ -9,5 +9,6 @@ pod 'Moya', '~> 10.0.1'
 pod 'ObjectMapper', '~> 3.1.0'
 pod 'RxKeyboard'
 pod 'RealmSwift'
-# pod 'GodEye'
+pod 'CrashEye'
+pod 'FBMemoryProfiler'
 end

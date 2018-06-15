@@ -16,6 +16,7 @@ class VendorAlamoViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        loginAction()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,7 +25,7 @@ class VendorAlamoViewController: UIViewController {
     }
     
 
-    func loginAction(_ sender:UIButton) {
+    func loginAction() {
         //POST request
         let postsEndpoint: String = "http://wx.2mashi.com/AgencyAPI/api/Manager/login"
         let newPost: Dictionary = ["app_account": "00000021_m", "app_password": "123456"]

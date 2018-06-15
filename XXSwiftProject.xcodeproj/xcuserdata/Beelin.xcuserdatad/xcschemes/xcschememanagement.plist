@@ -7,7 +7,25 @@
 		<key>XXSwiftProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8E549B5E1FB9389F00EAE8E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E549B721FB9389F00EAE8E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E549B7D1FB9389F00EAE8E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

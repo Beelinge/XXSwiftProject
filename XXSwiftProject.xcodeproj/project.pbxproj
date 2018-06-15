@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2407522084A2DB00EB8B14 /* PracticeStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2407512084A2DB00EB8B14 /* PracticeStackViewController.swift */; };
+		8E2407542084A5F300EB8B14 /* PracticeCarshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2407532084A5F300EB8B14 /* PracticeCarshViewController.swift */; };
 		8E254CCA2029AC9E0014A8AB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CC92029AC9E0014A8AB /* MainTableViewController.swift */; };
 		8E254CD02029B9A80014A8AB /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CCF2029B9A80014A8AB /* NSObject+Ext.swift */; };
 		8E254CD52029CEB40014A8AB /* VendorAlamoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CD22029CEB40014A8AB /* VendorAlamoViewController.swift */; };
@@ -15,17 +17,35 @@
 		8E254CDB2029CF7B0014A8AB /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CDA2029CF7B0014A8AB /* PracticeViewController.swift */; };
 		8E254CDD2029CF8E0014A8AB /* WorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CDC2029CF8E0014A8AB /* WorksViewController.swift */; };
 		8E254CDF2029D0A60014A8AB /* VendorRxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E254CDE2029D0A60014A8AB /* VendorRxSwiftViewController.swift */; };
+		8E2C0A892089B68000D29466 /* PracticePresentaionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C0A862089B68000D29466 /* PracticePresentaionViewController.swift */; };
+		8E2C0A8A2089B68000D29466 /* PresentaionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C0A872089B68000D29466 /* PresentaionCoordinator.swift */; };
+		8E2C0A8B2089B68000D29466 /* PresentationFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C0A882089B68000D29466 /* PresentationFirstViewController.swift */; };
+		8E2C0A8E2089B7C100D29466 /* BlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C0A8D2089B7C100D29466 /* BlurEffectViewController.swift */; };
+		8E2C0A902089BA6100D29466 /* UIEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C0A8F2089BA6100D29466 /* UIEffectViewController.swift */; };
+		8E32644620D2554A0043BE51 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32644520D2554A0043BE51 /* AnimatedTransitioning.swift */; };
+		8E32644820D256850043BE51 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32644720D256850043BE51 /* InteractiveTransition.swift */; };
 		8E549B631FB9389F00EAE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B621FB9389F00EAE8E4 /* AppDelegate.swift */; };
 		8E549B681FB9389F00EAE8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E549B661FB9389F00EAE8E4 /* Main.storyboard */; };
 		8E549B6A1FB9389F00EAE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E549B691FB9389F00EAE8E4 /* Assets.xcassets */; };
 		8E549B6D1FB9389F00EAE8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E549B6B1FB9389F00EAE8E4 /* LaunchScreen.storyboard */; };
 		8E549B781FB9389F00EAE8E4 /* XXSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B771FB9389F00EAE8E4 /* XXSwiftProjectTests.swift */; };
 		8E549B831FB9389F00EAE8E4 /* XXSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B821FB9389F00EAE8E4 /* XXSwiftProjectUITests.swift */; };
+		8E569CA620C907F7002EE8B9 /* PracticeGCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E569CA520C907F7002EE8B9 /* PracticeGCDViewController.swift */; };
+		8E569CA820CA2A1A002EE8B9 /* VendorMoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E569CA720CA2A1A002EE8B9 /* VendorMoyaViewController.swift */; };
+		8E569CAB20CA6C18002EE8B9 /* AnimatedTransitioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E569CAA20CA6C18002EE8B9 /* AnimatedTransitioningViewController.swift */; };
+		8E569CAD20CA6EAB002EE8B9 /* AnimatedTransitioningSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E569CAC20CA6EAB002EE8B9 /* AnimatedTransitioningSecondViewController.swift */; };
 		8E65589C206F41D600D00982 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589B206F41D600D00982 /* NotificationName.swift */; };
 		8E65589E206F566B00D00982 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589D206F566B00D00982 /* UserDefaultsKey.swift */; };
 		8E6558A0206F573900D00982 /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E65589F206F573900D00982 /* PrintLog.swift */; };
 		8E6558A520723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558A420723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift */; };
 		8E6558A720725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558A620725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift */; };
+		8E6558B3207A4E0500D00982 /* PracticeWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558B2207A4E0500D00982 /* PracticeWKWebViewController.swift */; };
+		8E6558B5207A4E2B00D00982 /* PracticeKeyChainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558B4207A4E2B00D00982 /* PracticeKeyChainViewController.swift */; };
+		8E6558B8207B5F6700D00982 /* PhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558B7207B5F6700D00982 /* PhotoBrowser.swift */; };
+		8E6558BA207B603000D00982 /* PhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558B9207B603000D00982 /* PhotoBrowserCell.swift */; };
+		8E6558BC207E04C200D00982 /* CrashEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6558BB207E04C200D00982 /* CrashEye.swift */; };
+		8EC77CA020A0498500B83AF4 /* TransitionAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77C9F20A0498500B83AF4 /* TransitionAnimationViewController.swift */; };
+		8EC77CA220A04C6F00B83AF4 /* TransitionAnimationNextPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77CA120A04C6F00B83AF4 /* TransitionAnimationNextPageViewController.swift */; };
 		E019DEE680698A8F558716BE /* Pods_XXSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F337026A9B27C0561EB6911 /* Pods_XXSwiftProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +70,8 @@
 		6F337026A9B27C0561EB6911 /* Pods_XXSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC2EB13627D39F2C23A266D /* Pods-XXSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwiftProject/Pods-XXSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7D739272048839B81C3CABA6 /* Pods-XXSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwiftProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwiftProject/Pods-XXSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		8E2407512084A2DB00EB8B14 /* PracticeStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStackViewController.swift; sourceTree = "<group>"; };
+		8E2407532084A5F300EB8B14 /* PracticeCarshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCarshViewController.swift; sourceTree = "<group>"; };
 		8E254CC92029AC9E0014A8AB /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		8E254CCF2029B9A80014A8AB /* NSObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
 		8E254CD22029CEB40014A8AB /* VendorAlamoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorAlamoViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +80,14 @@
 		8E254CDA2029CF7B0014A8AB /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		8E254CDC2029CF8E0014A8AB /* WorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksViewController.swift; sourceTree = "<group>"; };
 		8E254CDE2029D0A60014A8AB /* VendorRxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorRxSwiftViewController.swift; sourceTree = "<group>"; };
+		8E2C0A862089B68000D29466 /* PracticePresentaionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticePresentaionViewController.swift; sourceTree = "<group>"; };
+		8E2C0A872089B68000D29466 /* PresentaionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentaionCoordinator.swift; sourceTree = "<group>"; };
+		8E2C0A882089B68000D29466 /* PresentationFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationFirstViewController.swift; sourceTree = "<group>"; };
+		8E2C0A8D2089B7C100D29466 /* BlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController.swift; sourceTree = "<group>"; };
+		8E2C0A8F2089BA6100D29466 /* UIEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEffectViewController.swift; sourceTree = "<group>"; };
+		8E2C0A912089DA6600D29466 /* XXSwiftProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XXSwiftProject.entitlements; sourceTree = "<group>"; };
+		8E32644520D2554A0043BE51 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		8E32644720D256850043BE51 /* InteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransition.swift; sourceTree = "<group>"; };
 		8E549B5F1FB9389F00EAE8E4 /* XXSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E549B621FB9389F00EAE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E549B671FB9389F00EAE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,11 +100,22 @@
 		8E549B7E1FB9389F00EAE8E4 /* XXSwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXSwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E549B821FB9389F00EAE8E4 /* XXSwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXSwiftProjectUITests.swift; sourceTree = "<group>"; };
 		8E549B841FB9389F00EAE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E569CA520C907F7002EE8B9 /* PracticeGCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeGCDViewController.swift; sourceTree = "<group>"; };
+		8E569CA720CA2A1A002EE8B9 /* VendorMoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorMoyaViewController.swift; sourceTree = "<group>"; };
+		8E569CAA20CA6C18002EE8B9 /* AnimatedTransitioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioningViewController.swift; sourceTree = "<group>"; };
+		8E569CAC20CA6EAB002EE8B9 /* AnimatedTransitioningSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioningSecondViewController.swift; sourceTree = "<group>"; };
 		8E65589B206F41D600D00982 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		8E65589D206F566B00D00982 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		8E65589F206F573900D00982 /* PrintLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
 		8E6558A420723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksStringSelfSizingCollectionCell.swift; sourceTree = "<group>"; };
 		8E6558A620725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksStringSelfSizingCollectionViewController.swift; sourceTree = "<group>"; };
+		8E6558B2207A4E0500D00982 /* PracticeWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeWKWebViewController.swift; sourceTree = "<group>"; };
+		8E6558B4207A4E2B00D00982 /* PracticeKeyChainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeKeyChainViewController.swift; sourceTree = "<group>"; };
+		8E6558B7207B5F6700D00982 /* PhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowser.swift; sourceTree = "<group>"; };
+		8E6558B9207B603000D00982 /* PhotoBrowserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCell.swift; sourceTree = "<group>"; };
+		8E6558BB207E04C200D00982 /* CrashEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashEye.swift; sourceTree = "<group>"; };
+		8EC77C9F20A0498500B83AF4 /* TransitionAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationViewController.swift; sourceTree = "<group>"; };
+		8EC77CA120A04C6F00B83AF4 /* TransitionAnimationNextPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationNextPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				8E65589F206F573900D00982 /* PrintLog.swift */,
+				8E6558BB207E04C200D00982 /* CrashEye.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -144,6 +186,7 @@
 				8E254CD22029CEB40014A8AB /* VendorAlamoViewController.swift */,
 				8E254CD42029CEB40014A8AB /* VendorRxKeyboardController.swift */,
 				8E254CDE2029D0A60014A8AB /* VendorRxSwiftViewController.swift */,
+				8E569CA720CA2A1A002EE8B9 /* VendorMoyaViewController.swift */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -152,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				8E254CDC2029CF8E0014A8AB /* WorksViewController.swift */,
+				8E6558B6207B5F4800D00982 /* PhotoBrowser */,
 				8E6558A120723DD500D00982 /* StringSelfSizingCollection */,
 			);
 			path = Works;
@@ -160,9 +204,45 @@
 		8E254CD92029CF630014A8AB /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8E2C0A842089B68000D29466 /* UIEffect */,
 				8E254CDA2029CF7B0014A8AB /* PracticeViewController.swift */,
+				8E6558B2207A4E0500D00982 /* PracticeWKWebViewController.swift */,
+				8E6558B4207A4E2B00D00982 /* PracticeKeyChainViewController.swift */,
+				8E2407512084A2DB00EB8B14 /* PracticeStackViewController.swift */,
+				8E2407532084A5F300EB8B14 /* PracticeCarshViewController.swift */,
+				8E569CA520C907F7002EE8B9 /* PracticeGCDViewController.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		8E2C0A842089B68000D29466 /* UIEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8E569CA920CA6BF1002EE8B9 /* AnimatedTransitioning */,
+				8E2C0A8F2089BA6100D29466 /* UIEffectViewController.swift */,
+				8EC77C9E20A0495700B83AF4 /* TransitionAnimation */,
+				8E2C0A8C2089B76F00D29466 /* BlurEffect */,
+				8E2C0A852089B68000D29466 /* Presentation */,
+			);
+			path = UIEffect;
+			sourceTree = "<group>";
+		};
+		8E2C0A852089B68000D29466 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C0A862089B68000D29466 /* PracticePresentaionViewController.swift */,
+				8E2C0A872089B68000D29466 /* PresentaionCoordinator.swift */,
+				8E2C0A882089B68000D29466 /* PresentationFirstViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8E2C0A8C2089B76F00D29466 /* BlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C0A8D2089B7C100D29466 /* BlurEffectViewController.swift */,
+			);
+			path = BlurEffect;
 			sourceTree = "<group>";
 		};
 		8E549B561FB9389F00EAE8E4 = {
@@ -190,6 +270,7 @@
 		8E549B611FB9389F00EAE8E4 /* XXSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				8E2C0A912089DA6600D29466 /* XXSwiftProject.entitlements */,
 				8E655898206F415A00D00982 /* General */,
 				8E254CCD2029B95C0014A8AB /* Helper */,
 				8E549B901FB93BBE00EAE8E4 /* Module */,
@@ -231,9 +312,21 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
+		8E569CA920CA6BF1002EE8B9 /* AnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				8E569CAA20CA6C18002EE8B9 /* AnimatedTransitioningViewController.swift */,
+				8E569CAC20CA6EAB002EE8B9 /* AnimatedTransitioningSecondViewController.swift */,
+				8E32644520D2554A0043BE51 /* AnimatedTransitioning.swift */,
+				8E32644720D256850043BE51 /* InteractiveTransition.swift */,
+			);
+			path = AnimatedTransitioning;
+			sourceTree = "<group>";
+		};
 		8E655898206F415A00D00982 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				8E6558C32080526400D00982 /* GeneralControl */,
 				8E65589A206F41C600D00982 /* Const */,
 				8E655899206F415A00D00982 /* Extension */,
 			);
@@ -281,6 +374,31 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		8E6558B6207B5F4800D00982 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				8E6558B7207B5F6700D00982 /* PhotoBrowser.swift */,
+				8E6558B9207B603000D00982 /* PhotoBrowserCell.swift */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		8E6558C32080526400D00982 /* GeneralControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneralControl;
+			sourceTree = "<group>";
+		};
+		8EC77C9E20A0495700B83AF4 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8EC77C9F20A0498500B83AF4 /* TransitionAnimationViewController.swift */,
+				8EC77CA120A04C6F00B83AF4 /* TransitionAnimationNextPageViewController.swift */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
 		AD66C91A03798B19AF2D826E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,7 +419,6 @@
 				8E549B5C1FB9389F00EAE8E4 /* Frameworks */,
 				8E549B5D1FB9389F00EAE8E4 /* Resources */,
 				CF2EB5EDC428AC4B4E45A7B7 /* [CP] Embed Pods Frameworks */,
-				B3FE0AA0A59FC8A3E7BD05D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,6 +478,11 @@
 					8E549B5E1FB9389F00EAE8E4 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8E549B721FB9389F00EAE8E4 = {
 						CreatedOnToolsVersion = 9.0;
@@ -440,21 +562,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B3FE0AA0A59FC8A3E7BD05D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXSwiftProject/Pods-XXSwiftProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CF2EB5EDC428AC4B4E45A7B7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +570,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XXSwiftProject/Pods-XXSwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CrashEye/CrashEye.framework",
+				"${BUILT_PRODUCTS_DIR}/FBAllocationTracker/FBAllocationTracker.framework",
+				"${BUILT_PRODUCTS_DIR}/FBMemoryProfiler/FBMemoryProfiler.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -477,6 +588,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CrashEye.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAllocationTracker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBMemoryProfiler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -500,20 +615,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC77CA020A0498500B83AF4 /* TransitionAnimationViewController.swift in Sources */,
+				8E2407522084A2DB00EB8B14 /* PracticeStackViewController.swift in Sources */,
 				8E65589E206F566B00D00982 /* UserDefaultsKey.swift in Sources */,
+				8E2C0A8A2089B68000D29466 /* PresentaionCoordinator.swift in Sources */,
+				8E2C0A8B2089B68000D29466 /* PresentationFirstViewController.swift in Sources */,
 				8E549B631FB9389F00EAE8E4 /* AppDelegate.swift in Sources */,
+				8E2C0A902089BA6100D29466 /* UIEffectViewController.swift in Sources */,
 				8E65589C206F41D600D00982 /* NotificationName.swift in Sources */,
+				8E6558BA207B603000D00982 /* PhotoBrowserCell.swift in Sources */,
 				8E6558A520723E1500D00982 /* WorksStringSelfSizingCollectionCell.swift in Sources */,
 				8E254CDD2029CF8E0014A8AB /* WorksViewController.swift in Sources */,
+				8E6558B5207A4E2B00D00982 /* PracticeKeyChainViewController.swift in Sources */,
+				8E2407542084A5F300EB8B14 /* PracticeCarshViewController.swift in Sources */,
+				8E569CAB20CA6C18002EE8B9 /* AnimatedTransitioningViewController.swift in Sources */,
 				8E6558A0206F573900D00982 /* PrintLog.swift in Sources */,
+				8E32644820D256850043BE51 /* InteractiveTransition.swift in Sources */,
 				8E254CD52029CEB40014A8AB /* VendorAlamoViewController.swift in Sources */,
+				8E6558B8207B5F6700D00982 /* PhotoBrowser.swift in Sources */,
+				8E569CAD20CA6EAB002EE8B9 /* AnimatedTransitioningSecondViewController.swift in Sources */,
+				8EC77CA220A04C6F00B83AF4 /* TransitionAnimationNextPageViewController.swift in Sources */,
 				8E254CDF2029D0A60014A8AB /* VendorRxSwiftViewController.swift in Sources */,
+				8E569CA820CA2A1A002EE8B9 /* VendorMoyaViewController.swift in Sources */,
 				8E254CD02029B9A80014A8AB /* NSObject+Ext.swift in Sources */,
+				8E569CA620C907F7002EE8B9 /* PracticeGCDViewController.swift in Sources */,
+				8E6558BC207E04C200D00982 /* CrashEye.swift in Sources */,
 				8E254CDB2029CF7B0014A8AB /* PracticeViewController.swift in Sources */,
+				8E32644620D2554A0043BE51 /* AnimatedTransitioning.swift in Sources */,
 				8E6558A720725E7000D00982 /* WorksStringSelfSizingCollectionViewController.swift in Sources */,
 				8E254CCA2029AC9E0014A8AB /* MainTableViewController.swift in Sources */,
+				8E2C0A892089B68000D29466 /* PracticePresentaionViewController.swift in Sources */,
 				8E254CD72029CEB40014A8AB /* VendorRxKeyboardController.swift in Sources */,
 				8E254CD62029CEB40014A8AB /* VendorViewController.swift in Sources */,
+				8E6558B3207A4E0500D00982 /* PracticeWKWebViewController.swift in Sources */,
+				8E2C0A8E2089B7C100D29466 /* BlurEffectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +815,8 @@
 			baseConfigurationReference = 7CC2EB13627D39F2C23A266D /* Pods-XXSwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XXSwiftProject/XXSwiftProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68SA3JHC33;
@@ -699,6 +836,8 @@
 			baseConfigurationReference = 7D739272048839B81C3CABA6 /* Pods-XXSwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XXSwiftProject/XXSwiftProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68SA3JHC33;

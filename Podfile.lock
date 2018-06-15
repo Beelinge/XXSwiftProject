@@ -1,5 +1,11 @@
 PODS:
   - Alamofire (4.5.1)
+  - CrashEye (1.1.2)
+  - FBAllocationTracker (0.1.5)
+  - FBMemoryProfiler (0.1.3):
+    - FBAllocationTracker (~> 0.1)
+    - FBRetainCycleDetector (~> 0.1)
+  - FBRetainCycleDetector (0.1.4)
   - Moya (10.0.1):
     - Moya/Core (= 10.0.1)
   - Moya/Core (10.0.1):
@@ -23,6 +29,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5.1)
+  - CrashEye
+  - FBMemoryProfiler
   - Moya (~> 10.0.1)
   - ObjectMapper (~> 3.1.0)
   - RealmSwift
@@ -30,8 +38,30 @@ DEPENDENCIES:
   - SnapKit (~> 4.0.0)
   - SwiftyJSON (~> 4.0.0)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CrashEye
+    - FBAllocationTracker
+    - FBMemoryProfiler
+    - FBRetainCycleDetector
+    - Moya
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxKeyboard
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CrashEye: b93cebbeac65b50ee10969663675d3e6eeab7779
+  FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
+  FBMemoryProfiler: 623fc5f8a61f7d02ec75c87e3b97c90f621d8b02
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
@@ -43,6 +73,6 @@ SPEC CHECKSUMS:
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 32494a28a7a77f2d6c90c19eda4b71bda083abf2
+PODFILE CHECKSUM: eca6283ead111863b74d640c4b7ae5cf949af0a4
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
